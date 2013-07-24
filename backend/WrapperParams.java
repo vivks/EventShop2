@@ -4,6 +4,7 @@ public class WrapperParams {
 	private final int geoResolution;
 	
 	//TODO(pmarx): Should these be some sort of location data-structure?
+	//yes. geoPoint 
 	private final double southWestCorner;
 	private final double northEastCorner;
 	
@@ -11,6 +12,7 @@ public class WrapperParams {
 	
 	//TODO(pmarx): Can we make theme an Enum or something similar based off a database list of
 	//all the registered datasources we have?
+	//vks: Not sure of the benefits of that. as this list could grow arbitrarily.
 	private final String theme;
 	
 	/*
