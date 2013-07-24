@@ -6,6 +6,7 @@ public class EmageParams {
 	
 	//TODO pmarx: This should probably be some other type, or maybe even
 	//two vars, start/end time
+	//vks: agreed.
 	private final int timeWindow;
 	
 	/*
