@@ -25,6 +25,7 @@ public class DBManager {
 	/*
 	 * TODO: Need's arguments to specify which points are desired
 	 *  (data source, bounding box, time window?)
+	 * vks: Yes. you may want to add authorization check.  
 	 */
 	public PointStream getPointStream() {
 		return null;
@@ -33,6 +34,7 @@ public class DBManager {
 	/*
 	 * TODO: Need's arguments to specify which Emages are desired
 	 *  (data source, time window?)
+	 * vks: Yes. you may want to add authorization check.  
 	 */
 	public EmageStream getEmageStream() {
 		return null;
@@ -41,6 +43,7 @@ public class DBManager {
 	/*
 	 * TODO: Method for adding a single STTPoint to the DB, possibly only needed for testing
 	 * or as a helper method, not sure.
+	 *vks: Yes. good to have it. 
 	 */
 	public void putPoint(STTPoint sttPoint) {
 		
@@ -55,6 +58,7 @@ public class DBManager {
 	
 	/*
 	 * TODO: Method to add a single Emage to the DB, possibly this could just be a helper?
+	 *vks: Yes. good to have it. 
 	 */
 	public void putEmage(Emage emage) {
 		
