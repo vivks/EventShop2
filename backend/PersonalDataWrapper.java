@@ -4,7 +4,10 @@ package backend;
 public class PersonalDataWrapper extends AbstractDataWrapper {
 	
 	/**
-	 * @param emageParams
+	 * 
+	 * @param emageParams:
+	 * vks: There seems to be a naming issue here. Why do we need emageParams for PersonalDataWrapper? We still want timewindow though. 
+	 * 
 	 * @param wrapperParams
 	 * @param authFields
 	 */
